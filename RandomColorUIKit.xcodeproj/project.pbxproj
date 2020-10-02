@@ -60,12 +60,12 @@
 			children = (
 				916F27AB2526E4AA000401BA /* AppDelegate.swift */,
 				916F27AD2526E4AA000401BA /* SceneDelegate.swift */,
+				916F27CA2526F486000401BA /* ColorDetailVC.swift */,
 				916F27C62526F3A5000401BA /* ColorTableVC.swift */,
 				916F27B12526E4AA000401BA /* Main.storyboard */,
 				916F27B42526E4AC000401BA /* Assets.xcassets */,
 				916F27B62526E4AC000401BA /* LaunchScreen.storyboard */,
 				916F27B92526E4AC000401BA /* Info.plist */,
-				916F27CA2526F486000401BA /* ColorDetailVC.swift */,
 			);
 			path = RandomColorUIKit;
 			sourceTree = "<group>";
