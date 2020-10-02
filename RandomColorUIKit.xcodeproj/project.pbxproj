@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		916F27AC2526E4AA000401BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F27AB2526E4AA000401BA /* AppDelegate.swift */; };
 		916F27AE2526E4AA000401BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F27AD2526E4AA000401BA /* SceneDelegate.swift */; };
-		916F27B02526E4AA000401BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F27AF2526E4AA000401BA /* ViewController.swift */; };
 		916F27B32526E4AA000401BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916F27B12526E4AA000401BA /* Main.storyboard */; };
 		916F27B52526E4AC000401BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916F27B42526E4AC000401BA /* Assets.xcassets */; };
 		916F27B82526E4AC000401BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916F27B62526E4AC000401BA /* LaunchScreen.storyboard */; };
+		916F27C72526F3A5000401BA /* ColorTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F27C62526F3A5000401BA /* ColorTableVC.swift */; };
+		916F27CB2526F486000401BA /* ColorDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916F27CA2526F486000401BA /* ColorDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		916F27A82526E4AA000401BA /* RandomColorUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColorUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916F27AB2526E4AA000401BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		916F27AD2526E4AA000401BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		916F27AF2526E4AA000401BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		916F27B22526E4AA000401BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		916F27B42526E4AC000401BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		916F27B72526E4AC000401BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		916F27B92526E4AC000401BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916F27C62526F3A5000401BA /* ColorTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableVC.swift; sourceTree = "<group>"; };
+		916F27CA2526F486000401BA /* ColorDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				916F27AB2526E4AA000401BA /* AppDelegate.swift */,
 				916F27AD2526E4AA000401BA /* SceneDelegate.swift */,
-				916F27AF2526E4AA000401BA /* ViewController.swift */,
+				916F27C62526F3A5000401BA /* ColorTableVC.swift */,
 				916F27B12526E4AA000401BA /* Main.storyboard */,
 				916F27B42526E4AC000401BA /* Assets.xcassets */,
 				916F27B62526E4AC000401BA /* LaunchScreen.storyboard */,
 				916F27B92526E4AC000401BA /* Info.plist */,
+				916F27CA2526F486000401BA /* ColorDetailVC.swift */,
 			);
 			path = RandomColorUIKit;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916F27B02526E4AA000401BA /* ViewController.swift in Sources */,
+				916F27C72526F3A5000401BA /* ColorTableVC.swift in Sources */,
+				916F27CB2526F486000401BA /* ColorDetailVC.swift in Sources */,
 				916F27AC2526E4AA000401BA /* AppDelegate.swift in Sources */,
 				916F27AE2526E4AA000401BA /* SceneDelegate.swift in Sources */,
 			);
